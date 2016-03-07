@@ -37,8 +37,6 @@ input_size = size(input);
 update_list = 1:batch_size:input_size(end);
 % epoch size
 epoch_size = length(update_list)-1;
-tr_loss = ones([numIters*epoch_size 1]);
-te_loss = ones([numIters*epoch_size 1]);
 res_acc = 0;
 res_model = model;
 te_loss = ones([numIters 1]);
