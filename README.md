@@ -1,5 +1,5 @@
 # matlab-simple-MNIST-solver
-This repo is heavily based on Nathan Wang's work @github.com/nathanwang000/ROCNN
+This repo is heavily based on Nathan Wang's work @github.com/nathanwang000/ROCNN.
 Tasks: 
 - Train a classifier from 60k training data and test on 10k data, each input is a 28x28x1 image.
 How to use:
