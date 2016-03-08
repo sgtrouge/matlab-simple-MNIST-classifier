@@ -16,4 +16,4 @@ More on CNN layers: @cs231n.github.io/convolutional-networks/
 - Try deepen the convo layers, and stacks mulitple convo-relu-pool layers. Will requires heavy resource, with best error accuracy about < 0.5%.
 
 # Personal benchmark:
-using conv->relu->pool->conv->relu->pool structure (num filter 3 at conv layer), with same learning rate 0.01, achieve ~ 97.8% test accuracy in 5 hours, 98.4% training accuracy
+using conv->relu->pool->conv->relu->pool structure (num filter 3 at conv layer), with same learning rate 0.01 over 50 iterations achieve ~ 97.8% test accuracy in 5 hours, 98.4% training accuracy.
